@@ -2,7 +2,10 @@ import React from 'react';
 
 const App = props => {
   return(
-    <h1>Hello World</h1>
+    <div>
+      <h1>Hello World</h1>
+      <h2>This is Tunsure</h2>
+    </div>
   )
 }
 

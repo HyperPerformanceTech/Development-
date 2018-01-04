@@ -1,6 +1,6 @@
 import React from 'react';
 
-const App = props => {
+const PublicSite = props => {
   return(
     <div>
       <h1>Hello World</h1>
@@ -9,4 +9,4 @@ const App = props => {
   )
 }
 
-export default App
+export default PublicSite

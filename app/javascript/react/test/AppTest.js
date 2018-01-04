@@ -1,13 +1,13 @@
-import App from '../src/App';
+import PublicSite from '../src/PublicSite';
 import React from 'react'
 import { mount } from 'enzyme';
 import jasmineEnzyme from 'jasmine-enzyme';
 
-describe('A test for App', () => {
+describe('A test for PublicSite', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = mount(<App />)
+    wrapper = mount(<PublicSite />)
   })
 
   it('should pass', () => {

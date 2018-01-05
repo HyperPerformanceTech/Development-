@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  /* box-sizing: border-box; */
+}
+.nav-bar {
+  font-family: 'Open Sans', sans-serif;
+  /* margin: 0; */
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: -1px;
+  margin: 1.3em;
+}
+
+.nav-bar-tab {
+  position: relative;
+  text-align: center;
+  margin: 0%;
+  display: inline-block;
+  border-bottom: 0;
+  transition: 2s ease-in-out;
+}
+
+.nav-bar-tab:hover {
+  border-bottom: 2px solid;
+
+}

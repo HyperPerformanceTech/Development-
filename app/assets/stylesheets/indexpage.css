@@ -1,0 +1,16 @@
+.motto-panel {
+  position: relative;
+}
+
+h1.motto-text {
+  position: absolute;
+  vertical-align: center;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 200px) */
+  /* img.bg { */
+    /* left: 50%; */
+    /* margin-left: -512px; */
+  /* } */
+/* } */

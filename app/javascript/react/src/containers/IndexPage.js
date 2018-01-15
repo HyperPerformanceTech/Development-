@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-
-import barbershopPath from '../../../../assets/images/barbershop-1.jpg';
+import BarberShopPanel from '../components/BarberShopPanel';
+import WhatIsTunsure from '../components/WhatIsTunsure';
 
 class IndexPage extends Component {
   constructor(props){
@@ -13,8 +13,8 @@ class IndexPage extends Component {
   render(){
     return(
       <div className='motto-panel'>
-        <img className='motto-image' src={barbershopPath} alt="stock barbershop photo" />
-        <h1 className='motto-text'>Index page</h1>
+        <BarberShopPanel/>
+        <WhatIsTunsure />
       </div>
     )
   }
